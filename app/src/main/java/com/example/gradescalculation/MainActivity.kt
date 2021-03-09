@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
 
         val btnCalculator = btnCalculate
         val resultado = txtResults
+        val resTitle = txtResultsTitle
 
         btnCalculator.setOnClickListener{
             val nota1 = Integer.parseInt(edtGrade1.text.toString())
@@ -19,9 +20,11 @@ class MainActivity : AppCompatActivity() {
             val falta = Integer.parseInt(edtFrequency.text.toString())
 
             if (media>=6 && falta <=5){
-                resultado.setText("Student has been approved!" + "\n" + "Final grade:${media}" + "\n" + "Total absence: ${falta}" )
+                resTitle.setText("Student has been approved!")
+                resultado.setText("Final grade: ${media}" + "\n" + "Total absence: ${falta}")
             }else{
-                resultado.setText("Student has failed!" + "\n" + "Final grade:${media}" + "\n" + "Total absence: ${falta}" )
+                resTitle.setText("Student has failed!")
+                resultado.setText("Final grade: ${media}" + "\n" + "Total absence: ${falta}")
             }
         }
     }
