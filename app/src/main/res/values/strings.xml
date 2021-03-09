@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">GradesCalculation</string>
+    <string name="app_name">Grades Calculation</string>
+    <string name="calculate">Calculate!</string>
 </resources>
