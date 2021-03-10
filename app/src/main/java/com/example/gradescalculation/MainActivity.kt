@@ -1,5 +1,6 @@
 package com.example.gradescalculation
 
+import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
@@ -21,9 +22,11 @@ class MainActivity : AppCompatActivity() {
 
             if (media>=6 && falta <=5){
                 resTitle.setText("Student has been approved!")
+                resTitle.setTextColor(Color.GREEN)
                 resultado.setText("Final grade: ${media}" + "\n" + "Total absence: ${falta}")
             }else{
                 resTitle.setText("Student has failed!")
+                resTitle.setTextColor(Color.RED)
                 resultado.setText("Final grade: ${media}" + "\n" + "Total absence: ${falta}")
             }
         }
