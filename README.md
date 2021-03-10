@@ -6,7 +6,8 @@ I could search about changing colors programatically according to the conditions
 
 
 
-<img src= "https://user-images.githubusercontent.com/73479796/110653299-e2ce0a80-819b-11eb-9a8c-27516ca7f018.mp4" width="200">
+![WhatsApp Video 2021-03-10 at 12 13 20](https://user-images.githubusercontent.com/73479796/110654739-2b39f800-819d-11eb-8e42-d8cbbd13d9ae.gif)
+
 
 
 
