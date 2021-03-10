@@ -22,12 +22,12 @@ class MainActivity : AppCompatActivity() {
 
             if (media>=6 && falta <=5){
                 resTitle.setText("Student has been approved!")
-                resTitle.setTextColor(Color.GREEN)
-                resultado.setText("Final grade: ${media}" + "\n" + "Total absence: ${falta}")
+                resTitle.setTextColor(Color.parseColor("#3498ac"))
+                resultado.setText("Final grade: ${media}" + "\n" + "Total absences: ${falta}")
             }else{
                 resTitle.setText("Student has failed!")
-                resTitle.setTextColor(Color.RED)
-                resultado.setText("Final grade: ${media}" + "\n" + "Total absence: ${falta}")
+                resTitle.setTextColor(Color.parseColor("#ff815c"))
+                resultado.setText("Final grade: ${media}" + "\n" + "Total absences: ${falta}")
             }
         }
     }
